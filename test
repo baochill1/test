@@ -37,6 +37,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab5o = MakeTab({Name = "bloxfruit auto bounty"}) 
      local Tab6o = MakeTab({Name = "dead rails"}) 
      local Tab7o = MakeTab({Name = "grow a garden "}) 
+     local Tab8o = MakeTab({Name = "king legacy"}) 
 ------- BUTTON
     
     AddButton(Tab1o, {
@@ -317,5 +318,14 @@ AddButton(Tab7o, {
      Name = "Vxeze grow a garden",
     Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/refs/heads/main/GrowaGarden", true))()
+  end
+  })
+
+AddButton(Tab8o, {
+     Name = "Arc hub",
+    Callback = function()
+getgenv().RaidUI = false -- For Hidden Raid Mode true = show and false = hidden
+getgenv().CustomDistance = 10 -- For Bug Can't Swipe Distance
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ChopLoris/ArcHub/main/main.lua"))()
   end
   })
