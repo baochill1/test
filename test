@@ -31,7 +31,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       
 ------ Tab
      local Tab1o = MakeTab({Name = "bloxfruit main no key"})
-      local Tab2o = MakeTab({Name = "bloxfruit Kaitun"})  
+      local Tab2o = MakeTab({Name = "bloxfruit Kaitun cần get key"})  
      local Tab3o = MakeTab({Name = "bloxfruit hop sever"}) 
      local Tab4o = MakeTab({Name = "bloxfruit tự động gạt cần"}) 
      local Tab5o = MakeTab({Name = "bloxfruit auto bounty"}) 
