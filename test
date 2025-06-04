@@ -34,7 +34,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       local Tab2o = MakeTab({Name = "Script bloxfruit  Kaitun"})  
      local Tab3o = MakeTab({Name = "Script bloxfruit  hop sever "}) 
      local Tab4o = MakeTab({Name = "Script bloxfruit  tự động gạt cần "}) 
-     local Tab7o = MakeTab({Name = "Script dead rails "})
+     local Tab5o = MakeTab({Name = "Script bloxfruit  auto bounty "}) 
 
 ------- BUTTON
     
@@ -305,18 +305,4 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/10f7f97cebba24
   end
   })
 
- AddButton(Tab7o, {
-     Name = "auto farm bone",
-    Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/invertedth/Autobonds/refs/heads/main/Autobondscirpt.lua"))()
-  end
-  }) 
-
-
-AddButton(Tab9o, {
-     Name = "script grow a garden ",
-    Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/refs/heads/main/GrowaGarden", true))()
-  end
-  }
 
