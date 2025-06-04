@@ -26,7 +26,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
        Stroke = false,
-       StrokeColor = Color3.fromRGB(255, 0, 0)
+       StrokeColor = Color3.fromRGB(128,128,128)
       })
       
 ------ Tab
